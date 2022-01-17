@@ -1,0 +1,51 @@
+% This Template Designed By Nima Pourdamghani	
+\ProvidesPackage{MyTemplate}
+
+
+%Required Packages
+%=======================================================
+\RequirePackage{hyperref}
+\usepackage{fancybox}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{endnotes}
+\usepackage[small,it]{caption}
+\usepackage[font=small,format=plain,labelfont=bf,textfont=it]{caption} %Image captions reformatt
+\usepackage[bottom=29mm,top=29mm,left=19mm,right=19mm]{geometry}
+\usepackage{multicol}
+\usepackage{xepersian}
+\graphicspath{{images/}}
+
+%=======================================================
+\addtolength{\topmargin}{-0.8cm}
+\addtolength{\textheight}{1.6cm}
+\addtolength{\oddsidemargin}{0cm}
+\addtolength{\evensidemargin}{-0.5cm}
+\addtolength{\textwidth}{0.5cm}
+
+%Paragraph setting
+%=======================================================
+\linespread{1.3} %line space
+\setlength{\parindent}{0pt} %The indent of the paragraph first line
+\setlength{\parskip}{5pt} %Befor paragraph space
+
+%General Setting
+%=======================================================
+\hypersetup{colorlinks=true,linkcolor=blue,citecolor=green,filecolor=magneta,urlcolor=cyan}
+\settextfont[Scale=1]{Nazli}
+\setlatintextfont[Scale=1]{Times New Roman}
+\setdigitfont[Scale=1]{Nazli}
+
+% numbering style definition
+\renewcommand{\thesection}{\arabic{section}}
+\renewcommand{\thesubsection}{\arabic{subsection}.\arabic{section}}
+\renewcommand{\thetable}{\arabic{table}.\arabic{section}}
+\renewcommand{\thefigure}{\arabic{figure}.\arabic{section}}
+
+% Commands and definitions
+%=======================================================
+
+
+
+\let\LTRfootnote=\endnote
+\renewcommand{\notesname}{\vspace{-16pt}}
