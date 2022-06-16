@@ -1,3 +1,6 @@
+![](https://img.shields.io/github/license/pourmand1376/Seminar_Sharif)
+![](https://img.shields.io/github/repo-size/pourmand1376/Seminar_Sharif)
+
 # Seminar_Sharif
 فرمت سمینار دانشگاه صنعتی شریف
 
